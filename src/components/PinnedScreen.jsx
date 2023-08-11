@@ -13,7 +13,8 @@ const PinningSection = () => {
                 <div className="tag">Since 2009</div>
               </div>
               <h2 className=" text-xl lg:text-5xl">
-                Over a <span className="text-[#cc3c39]" >Decade</span> of Youth Empowerment
+                Over a <span className="text-[#cc3c39]">Decade</span> of Youth
+                Empowerment
               </h2>
             </div>
           </div>
@@ -23,20 +24,18 @@ const PinningSection = () => {
             <div className="left">
               <div className="tag">Upcoming Events</div>
               <h3 style={{ paddingTop: "2rem" }}>
-                National Campus Retreat 2023
+                National Campus Retreat 2024
               </h3>
               <p style={{ paddingTop: "1rem" }}>
-                We emphasize strategic thinking and planning, equipping future
-                leaders with the ability to analyze complex situations and make
-                informed decisions.
+                In this event we emphasize strategic thinking and planning,
+                equipping future leaders with the ability to analyze complex
+                situations and make informed decisions.
               </p>
               <div className="other" style={{ paddingTop: "2rem" }}>
                 <ul>
-                  <li>Date: xxxx</li>
-                  <li style={{ padding: "0.8rem 0" }}>
-                    Venue: xxxxxxxxx xxxxxxx xxxx
-                  </li>
-                  <li>Registration: xxxxxx</li>
+                  <li>Date: in view</li>
+                  <li style={{ padding: "0.8rem 0" }}>Venue: in view</li>
+                  <li>Registration: in view</li>
                 </ul>
               </div>
               <div style={{ padding: "3rem 0" }} className="btn-parent">
@@ -57,17 +56,15 @@ const PinningSection = () => {
               <div className="tag">Upcoming Events</div>
               <h3 style={{ paddingTop: "2rem" }}>Rendezvous 2023</h3>
               <p style={{ paddingTop: "1rem" }}>
-                We emphasize strategic thinking and planning, equipping future
-                leaders with the ability to analyze complex situations and make
-                informed decisions.
+                Year-End Celebration to cherish the memories of the past year
+                and welcome the new one with a burst of excitement! with food,
+                vibrant music and thrilling game.
               </p>
               <div className="other" style={{ paddingTop: "2rem" }}>
                 <ul>
-                  <li>Date: xxxx</li>
-                  <li style={{ padding: "0.8rem 0" }}>
-                    Venue: xxxxxxxxx xxxxxxx xxxx
-                  </li>
-                  <li>Registration: xxxxxx</li>
+                  <li>Date: in view</li>
+                  <li style={{ padding: "0.8rem 0" }}>Venue: in view</li>
+                  <li>Registration: in view</li>
                 </ul>
               </div>
               <div style={{ padding: "3rem 0" }} className="btn-parent">
@@ -90,17 +87,16 @@ const PinningSection = () => {
                 S.W.A.T Creatives Conference
               </h3>
               <p style={{ paddingTop: "1rem" }}>
-                We emphasize strategic thinking and planning, equipping future
-                leaders with the ability to analyze complex situations and make
-                informed decisions.
+                A transformative event exploring creativity, innovation, and
+                spiritual intelligence for personal and professional growth.
               </p>
               <div className="other" style={{ paddingTop: "2rem" }}>
                 <ul>
-                  <li>Date: xxxx</li>
+                  <li>Date: 14th - 15th October 2023</li>
                   <li style={{ padding: "0.8rem 0" }}>
-                    Venue: xxxxxxxxx xxxxxxx xxxx
+                    Venue: LCCI, Ikeja, Lagos
                   </li>
-                  <li>Registration: xxxxxx</li>
+                  <li>Registration: N10,000</li>
                 </ul>
               </div>
               <div style={{ padding: "3rem 0" }} className="btn-parent">

@@ -38,7 +38,7 @@ const Vision = () => {
         <div className="text-center text-3xl font-black lg:text-[3rem]">Our Vision</div>
         <div ref={triggerRef}>
           <div
-            className="mx-auto w-[100%] py-[3rem] text-center lg:w-[70%]"
+            className="mx-auto w-[100%] py-[3rem] lg:py-[6em] text-center lg:w-[70%]"
           >
             {text.split("").map((letter, index) => {
               return (

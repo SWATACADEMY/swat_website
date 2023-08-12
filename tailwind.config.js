@@ -14,13 +14,20 @@ export default {
       },
       keyframes:{
         slide_infinite:{
+          "0":{
+            "-moz-transform": "translateX(100%)",
+            "-webkit-transform": "translateX(100%)",
+            "transform": "translateX(100%)"
+          },
           "100%": { 
-            "-webkit-transform": "translateX(-200%)"
+            "-moz-transform": "translateX(-100%)",
+            "-webkit-transform": "translateX(-100%)",
+            "transform": "translateX(-100%)"
           }
         }
       },
       animation: {
-        slides_linear: 'slide_infinite 20s infinite linear',
+        slides_linear: 'slide_infinite 20s  linear infinite',
       }
 
     },

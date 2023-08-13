@@ -59,7 +59,7 @@ const Event = () => {
               <img src="./event_04.png" alt="" />
             </div>
             <div className="card-body">
-              <h3 className="space">Rendezvous 2022</h3>
+              <h3 className="font-bold lg:text-3xl text-[#353535]">Rendezvous 2022</h3>
               <p className="space">
                 Year-End Celebration centered on Food, Music, Games, Fashion &
                 Fun!{" "}

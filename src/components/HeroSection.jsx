@@ -34,8 +34,8 @@ const HeroSection = () => {
 
       <div className=" w-full max-w-[100%] overflow-hidden gap-x-10  flex">
         <div className="flex animate-slides_linear  items-center gap-x-10 ">
-          {slideshowsPartner.map((data) => (
-            <img className="images block w-12 " key={data} src={data} />
+          {slideshowsPartner.map((data, index) => (
+            <img className="images block w-12" key={index} src={data} />
           ))}
         </div>
       </div>

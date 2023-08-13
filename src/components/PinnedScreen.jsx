@@ -4,7 +4,7 @@
 
 const PinningSection = () => {
   return (
-    <div className="container">
+    <div className="">
       <div className="pin">
         <div className="box">
           <div className="place-center">
@@ -19,8 +19,8 @@ const PinningSection = () => {
             </div>
           </div>
         </div>
-        <div className="box" style={{ background: "#FFD5C3" }}>
-          <div className="box-container grid">
+        <div className="py-8 lg:py-16 lg:px-32 px-4" style={{ background: "#FFD5C3" }}>
+          <div className="flex flex-col lg:flex-row lg:justify-between">
             <div className="left">
               <div className="tag">Upcoming Events</div>
               <h3 style={{ paddingTop: "2rem" }}>
@@ -31,7 +31,7 @@ const PinningSection = () => {
                 equipping future leaders with the ability to analyze complex
                 situations and make informed decisions.
               </p>
-              <div className="other" style={{ paddingTop: "2rem" }}>
+              <div className="text-base" style={{ paddingTop: "2rem" }}>
                 <ul>
                   <li>Date: in view</li>
                   <li style={{ padding: "0.8rem 0" }}>Venue: in view</li>
@@ -39,8 +39,8 @@ const PinningSection = () => {
                 </ul>
               </div>
               <div style={{ padding: "3rem 0" }} className="btn-parent">
-                <div className="btn">Register Now</div>
-                <div className="btn" style={{ paddingLeft: "2rem" }}>
+                <div className="btn whitespace-nowrap">Register Now</div>
+                <div className="btn whitespace-nowrap" style={{ paddingLeft: "2rem" }}>
                   Learn More
                 </div>
               </div>
@@ -50,11 +50,13 @@ const PinningSection = () => {
             </div>
           </div>
         </div>
-        <div className="box" style={{ background: "#E9EEEA" }}>
-          <div className="box-container grid">
+
+        {/* second */}
+        <div className="py-8 lg:py-16 lg:px-32 px-4" style={{ background: "#E9EEEA" }}>
+          <div className="flex flex-col lg:flex-row lg:justify-between">
             <div className="left">
               <div className="tag">Upcoming Events</div>
-              <h3 style={{ paddingTop: "2rem" }}>Rendezvous 2023</h3>
+              <h3 className="font-bold lg:text-3xl text-[#353535]" style={{ paddingTop: "2rem" }}>Rendezvous 2023</h3>
               <p style={{ paddingTop: "1rem" }}>
                 Year-End Celebration to cherish the memories of the past year
                 and welcome the new one with a burst of excitement! with food,
@@ -68,8 +70,8 @@ const PinningSection = () => {
                 </ul>
               </div>
               <div style={{ padding: "3rem 0" }} className="btn-parent">
-                <div className="btn">Register Now</div>
-                <div className="btn" style={{ paddingLeft: "2rem" }}>
+                <div className="btn whitespace-nowrap">Register Now</div>
+                <div className="btn whitespace-nowrap" style={{ paddingLeft: "2rem" }}>
                   Learn More
                 </div>
               </div>
@@ -79,11 +81,12 @@ const PinningSection = () => {
             </div>
           </div>
         </div>
-        <div className="box" style={{ background: "#ECDECC" }}>
-          <div className="box-container grid">
+        {/* Third */}
+        <div className="py-8 lg:py-16 lg:px-32 px-4" style={{ background: "#ECDECC" }}>
+          <div className="flex flex-col lg:flex-row lg:justify-between">
             <div className="left">
               <div className="tag">Upcoming Events</div>
-              <h3 style={{ paddingTop: "2rem" }}>
+              <h3 className="font-bold lg:text-3xl text-[#353535]" style={{ paddingTop: "2rem" }}>
                 S.W.A.T Creatives Conference
               </h3>
               <p style={{ paddingTop: "1rem" }}>
@@ -100,8 +103,8 @@ const PinningSection = () => {
                 </ul>
               </div>
               <div style={{ padding: "3rem 0" }} className="btn-parent">
-                <div className="btn">Register Now</div>
-                <div className="btn" style={{ paddingLeft: "2rem" }}>
+                <div className="btn whitespace-nowrap">Register Now</div>
+                <div className="btn whitespace-nowrap" style={{ paddingLeft: "2rem" }}>
                   Learn More
                 </div>
               </div>

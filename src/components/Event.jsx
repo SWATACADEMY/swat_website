@@ -1,9 +1,9 @@
 const Event = () => {
   return (
     <>
-      <div className="event-section">
-        <h2 className="custom-text-shadow">RECENT EVENTS</h2>
-        <div className=" flex flex-wrap gap-5  ">
+      <div className="event-section pb-10">
+        <h2 className="">RECENT EVENTS</h2>
+        <div className=" flex flex-wrap gap-5 lg:gap-20 max-w-[90%] mx-auto justify-between ">
           <div className="card  ">
             <div className="card-header">
               <img src="./event_01.png" alt="" />
@@ -19,7 +19,7 @@ const Event = () => {
                 <div className="date">Date : 19th February, 2023</div>
                 <div className="date">Venue : JJT Park, Ikeja</div>
               </div>
-              <button className="btn">View Album</button>
+              <button className="btn mt-6 whitespace-nowrap ">View Album</button>
             </div>
           </div>
           <div className="card">
@@ -34,7 +34,7 @@ const Event = () => {
                 <div className="date">Date : Sunday 9th April, 2023</div>
                 <div className="date">Venue : Yabatech Royal Guest House</div>
               </div>
-              <button className="btn">View Album</button>
+              <button className="btn mt-6">View Album</button>
             </div>
           </div>
           <div className="card">
@@ -51,7 +51,7 @@ const Event = () => {
                 <div className="date">Date : 13th May, 2023</div>
                 <div className="date">Venue : Makoko Community of Lagos</div>
               </div>
-              <button className="btn">View Album</button>
+              <button className="btn mt-6">View Album</button>
             </div>
           </div>
           <div className="card">
@@ -59,7 +59,7 @@ const Event = () => {
               <img src="./event_04.png" alt="" />
             </div>
             <div className="card-body">
-              <h3 className="space">Rendezvous 2022</h3>
+              <h3 className="font-bold lg:text-3xl text-[#353535]">Rendezvous 2022</h3>
               <p className="space">
                 Year-End Celebration centered on Food, Music, Games, Fashion &
                 Fun!{" "}
@@ -69,7 +69,7 @@ const Event = () => {
                 <div className="date">Date : 24th December, 2022</div>
                 <div className="date">Venue : Yabatech Royal Guest House</div>
               </div>
-              <button className="btn">View Album</button>
+              <button className="btn mt-6">View Album</button>
             </div>
           </div>
         </div>

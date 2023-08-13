@@ -1,11 +1,11 @@
-import React from "react";
+
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="footer-info">
+    <div className="footer py-8">
+      <div className=" px-6 lg:px-[10rem]">
         <hr />
-        <div className="grid-3">
+        <div className="grid grid-cols-1 lg:grid-cols-3">
           <div>
             <h3 className="footer-title">Quick Find</h3>
 
@@ -43,7 +43,7 @@ const Footer = () => {
             <h3 className="footer-title">Our Address</h3>
             <p>Mission House, 1 Otunba Jobi Fele Way, Ikeja, Lagos Nigeria.</p>
           </div>
-          <div style={{ justifySelf: "end" }}>
+          <div>
             <h3 className="footer-title">Our Contact</h3>
             <ul className="footer-links">
               <li>+234 803 712 0640</li>

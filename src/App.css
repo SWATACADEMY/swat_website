@@ -170,6 +170,38 @@
   opacity: 0.2;
 }
 @media (min-width: 1024px) {
+  .overlay {
+    color: #ff0500;
+    font-family: Mutant Academy BB;
+    font-size: 21.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4rem;
+    position: absolute;
+    opacity: 0.1;
+    line-height: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .event-section h2 {
+    width: 100%;
+    font-family: Mutant Academy BB;
+    font-size: 6.25rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 153.9%; /* 9.61875rem */
+    letter-spacing: 3.125rem;
+    white-space: nowrap;
+    display: grid;
+    /* align-items: center; */
+    place-items: center;
+    /* opacity: 0.5; */
+    color: #f8f7f7; /* Set the text color */
+    text-shadow: -1px -1px 0 #cc3c39, /* Top left */ 1px -1px 0 #cc3c39,
+      /* Top right */ -1px 1px 0 #cc3c39, /* Bottom left */ 1px 1px 0 #cc3c39; /* Bottom right */
+  }
 .char {
   text-align: center;
   font-family: Mutant Academy BB;
@@ -210,7 +242,7 @@
 .reveal-text {
   color: #cecbcb;
   font-family: Montserrat;
-  font-size: 2.5rem;
+  font-size: 3.3rem !important;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -423,7 +455,23 @@
   /* Top right */ -1px 1px 0 #cc3c39, /* Bottom left */ 1px 1px 0 #cc3c39; /* Bottom right */
 }
 
-
+.event-section h2 {
+  width: 100%;
+  font-family: Mutant Academy BB;
+  font-size: 1cap;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 153.9%; /* 9.61875rem */
+  letter-spacing: 3.125rem;
+  white-space: nowrap;
+  display: grid;
+  /* align-items: center; */
+  place-items: center;
+  /* opacity: 0.5; */
+  color: #f8f7f7; /* Set the text color */
+  text-shadow: -1px -1px 0 #cc3c39, /* Top left */ 1px -1px 0 #cc3c39,
+    /* Top right */ -1px 1px 0 #cc3c39, /* Bottom left */ 1px 1px 0 #cc3c39; /* Bottom right */
+}
 /* .event-body {
   background: #f5f4f4;
   transform: translateY(-4.5rem);
@@ -439,7 +487,7 @@
   border-radius: 2rem;
   transition: box-shadow 0.3s ease;
   padding-bottom: 0.2rem;
-  width: 250px;
+  width: 300px;
 }
 
 .card-header img {
@@ -568,7 +616,7 @@
   place-items: center;
 }
 .right img {
-  width: 400px;
+  /* width: 400px; */
 }
 
 .box h3 {
@@ -611,24 +659,22 @@
   position: relative;
 }
 
-.footer-info {
-  padding: 7rem 10rem 0rem 10rem;
-}
+
 
 .overlay {
   color: #ff0500;
   font-family: Mutant Academy BB;
-  font-size: 21.875rem;
+  font-size: 5.875rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: 4rem;
+  letter-spacing: 3rem;
   position: absolute;
   opacity: 0.1;
   line-height: 0;
   bottom: 0;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-45%);
 }
 
 .footer-title {

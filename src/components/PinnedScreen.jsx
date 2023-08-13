@@ -12,8 +12,9 @@ const PinningSection = () => {
               <div className="button-container">
                 <div className="tag">Since 2009</div>
               </div>
-              <h2 className=" text-base md:text-lg whitespace-wrap lg:text-5xl xl:text-7xl">
-                Over a <span className="text-[#cc3c39]" >Decade</span> of Youth Empowerment
+              <h2 className=" text-xl lg:text-5xl">
+                Over a <span className="text-[#cc3c39]">Decade</span> of Youth
+                Empowerment
               </h2>
             </div>
           </div>
@@ -22,21 +23,19 @@ const PinningSection = () => {
           <div className="flex flex-col lg:flex-row lg:justify-between">
             <div className="left">
               <div className="tag">Upcoming Events</div>
-              <h3 className="font-bold lg:text-3xl text-[#353535]" style={{ paddingTop: "2rem" }}>
+              <h3 style={{ paddingTop: "2rem" }}>
                 National Campus Retreat 2024
               </h3>
-              <p className="max-w-[449px] lg:max-w-[60%] text-[#353535] mt-5">
-              In this event we emphasize strategic thinking and planning,
-               equipping future leaders with the ability to analyze complex
+              <p style={{ paddingTop: "1rem" }}>
+                In this event we emphasize strategic thinking and planning,
+                equipping future leaders with the ability to analyze complex
                 situations and make informed decisions.
               </p>
               <div className="text-base" style={{ paddingTop: "2rem" }}>
                 <ul>
-                  <li>Date: In view</li>
-                  <li>
-                    Venue: TBD
-                  </li>
-                  <li>Registration: TBD</li>
+                  <li>Date: in view</li>
+                  <li style={{ padding: "0.8rem 0" }}>Venue: in view</li>
+                  <li>Registration: in view</li>
                 </ul>
               </div>
               <div style={{ padding: "3rem 0" }} className="btn-parent">
@@ -59,17 +58,15 @@ const PinningSection = () => {
               <div className="tag">Upcoming Events</div>
               <h3 className="font-bold lg:text-3xl text-[#353535]" style={{ paddingTop: "2rem" }}>Rendezvous 2023</h3>
               <p style={{ paddingTop: "1rem" }}>
-              Year-End Celebration to cherish the memories of the past year 
-              and welcome the new one with a burst of excitement! with 
-              food, vibrant music and thrilling game.
+                Year-End Celebration to cherish the memories of the past year
+                and welcome the new one with a burst of excitement! with food,
+                vibrant music and thrilling game.
               </p>
               <div className="other" style={{ paddingTop: "2rem" }}>
                 <ul>
-                  <li>Date: In view</li>
-                  <li style={{ padding: "0.8rem 0" }}>
-                    Venue: TBD
-                  </li>
-                  <li>Registration: TBD</li>
+                  <li>Date: in view</li>
+                  <li style={{ padding: "0.8rem 0" }}>Venue: in view</li>
+                  <li>Registration: in view</li>
                 </ul>
               </div>
               <div style={{ padding: "3rem 0" }} className="btn-parent">
@@ -93,12 +90,12 @@ const PinningSection = () => {
                 S.W.A.T Creatives Conference
               </h3>
               <p style={{ paddingTop: "1rem" }}>
-              A transformative event exploring creativity, innovation, 
-              and spiritual intelligence for personal and professional growth.
+                A transformative event exploring creativity, innovation, and
+                spiritual intelligence for personal and professional growth.
               </p>
               <div className="other" style={{ paddingTop: "2rem" }}>
                 <ul>
-                  <li>Date: 14t-15th October 2023</li>
+                  <li>Date: 14th - 15th October 2023</li>
                   <li style={{ padding: "0.8rem 0" }}>
                     Venue: LCCI, Ikeja, Lagos
                   </li>

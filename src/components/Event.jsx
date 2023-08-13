@@ -1,5 +1,3 @@
-
-
 const Event = () => {
   return (
     <>
@@ -13,13 +11,13 @@ const Event = () => {
             <div className="card-body">
               <h3>Valentine Linkup 2023</h3>
               <p>
-              Fun filled service hangout to mark valentine 
-              with lots of love and gifts
+                Fun filled service hangout to mark valentine with lots of love
+                and gifts{" "}
               </p>
 
               <div className="category">
-                <div className="date">Date : 19th February 2023</div>
-                <div className="date">Venue : JJt Park, Ikeja</div>
+                <div className="date">Date : 19th February, 2023</div>
+                <div className="date">Venue : JJT Park, Ikeja</div>
               </div>
               <button className="btn mt-6 whitespace-nowrap ">View Album</button>
             </div>
@@ -30,9 +28,7 @@ const Event = () => {
             </div>
             <div className="card-body">
               <h3>Remember Me </h3>
-              <p>
-              Service hangout to mark Easter season and reflect on Jesus
-              </p>
+              <p>Service hangout to mark Easter season and reflect on Jesus </p>
 
               <div className="category">
                 <div className="date">Date : Sunday 9th April, 2023</div>
@@ -48,11 +44,11 @@ const Event = () => {
             <div className="card-body">
               <h3>Hope for Makoko</h3>
               <p>
-              Service hangout to mark Easter season and reflect on Jesus
+                Community Service for Part of Solution Nur/Pri School, Makoko
               </p>
 
               <div className="category">
-                <div className="date">Date: 13th May, 2023</div>
+                <div className="date">Date : 13th May, 2023</div>
                 <div className="date">Venue : Makoko Community of Lagos</div>
               </div>
               <button className="btn mt-6">View Album</button>
@@ -65,11 +61,12 @@ const Event = () => {
             <div className="card-body">
               <h3 className="space">Rendezvous 2022</h3>
               <p className="space">
-              Year-End Celebration centered on Food, Music, Games, Fashion & Fun!
+                Year-End Celebration centered on Food, Music, Games, Fashion &
+                Fun!{" "}
               </p>
 
               <div className="category space">
-                <div className="date">Date : 24th December 2022</div>
+                <div className="date">Date : 24th December, 2022</div>
                 <div className="date">Venue : Yabatech Royal Guest House</div>
               </div>
               <button className="btn mt-6">View Album</button>

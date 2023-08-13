@@ -22,27 +22,27 @@ const HeroSection = () => {
         <Navbar />
       </div>
       <div className="flex justify-center items-center gap-x-10 lg:gap-x-[100px]">
-        <PrimaryButton>
-            Join Us
-        </PrimaryButton>
-        <PrimaryButton>
-            Partner
-        </PrimaryButton>
+        <PrimaryButton>Join Us</PrimaryButton>
+        <PrimaryButton>Partner</PrimaryButton>
       </div>
       {/* arrow */}
       <div className="flex w-full justify-center">
         <a href="#about">
-            <ArrowDown />
+          <ArrowDown />
         </a>
       </div>
 
       <div className=" w-full max-w-[100%] overflow-hidden gap-x-10  flex">
-          <div className="flex animate-slides_linear  items-center gap-x-10 ">
-            {slideshowsPartner.map(data=><img className="images block w-12      " key={data} src={data}/>)}
-            </div>
-      </div> 
+        <div className="flex animate-slides_linear  items-center gap-x-10 ">
+          {slideshowsPartner.map((data) => (
+            <img className="images block w-12 " key={data} src={data} />
+          ))}
+        </div>
+      </div>
       <div>
-        <p className="text-[15px] text-center font-semibold text-[#CC3C39]">Partners Over the Years</p>
+        <p className="text-[15px] text-center font-semibold text-[#CC3C39]">
+          Partners Over the Years
+        </p>
       </div>
     </div>
   );

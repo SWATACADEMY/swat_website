@@ -1,5 +1,5 @@
-@import url('https://fonts.cdnfonts.com/css/mutant-academy-bb');
-@import url('https://fonts.cdnfonts.com/css/montserrat');
+@import url("https://fonts.cdnfonts.com/css/mutant-academy-bb");
+@import url("https://fonts.cdnfonts.com/css/montserrat");
 * {
   padding: 0;
   margin: 0;
@@ -19,9 +19,9 @@ body {
 }
 
 .images {
-   
   /* Hey browser, use your GPU */
   transform: translate3d(0, 0, 0);
+  filter: grayscale(100%);
 }
 
 li {
@@ -43,8 +43,6 @@ a {
   font-weight: 600;
   padding: 0.6rem 2rem;
 }
-
-
 
 .center {
   align-items: center;

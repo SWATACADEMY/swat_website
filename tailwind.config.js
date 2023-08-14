@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        home_bg:"url(/backgrounds/home_bg.png)"
+        home_bg:"url(/backgrounds/home_bg.png)",
+        hero_bg:"url(/backgrounds/hero_bg.png)"
       },
       fontFamily:{
         mutant: "Mutant Academy BB" // custom font use

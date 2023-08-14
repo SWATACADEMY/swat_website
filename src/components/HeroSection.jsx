@@ -15,7 +15,8 @@ const HeroSection = () => {
           <div className="text-white">
             <h1 className="text-4xl font-mutant text-center leading-[1] lg:text-[90px]">
               S.W.A.T <br />
-              LEADERSHIP ACADEMY
+              LEADERSHIP ACADEMY 
+              
             </h1>
             <h2 className="text-lg lg:text-2xl mt-2 mx-auto font-light max-w-[508px] text-center ">
               Empowering Tomorrow’s Leaders, Shaping the Society

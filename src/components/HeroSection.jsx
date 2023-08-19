@@ -1,41 +1,45 @@
 import { slideshowsPartner } from "../utils/slideshow";
 import Navbar from "./Navbar";
-import { PrimaryButton } from "./common/Button";
+import { PrimaryButton, SecondaryButton } from "./common/Button";
 import ArrowDown from "./svgs/ArrowDown";
 
 const HeroSection = () => {
   return (
     <div className="flex flex-col space-y-8  lg:pb-[30px] w-screen  h-screen">
-      <div className="flex  bg-home_bg min-h-[400px] h-[60%] bg-no-repeat bg-cover justify-center w-full ">
-        <div className="h-full flex flex-col justify-end pb-[30px]">
-          {/* Hero text */}
-          <div className="text-white">
-            <h1 className="text-4xl font-mutant text-center lg:text-8xl">
-              S.W.A.T <br />
-              LEADERSHIP ACADEMY
-            </h1>
-            <h2 className="text-lg lg:text-2xl mt-2 font-light text-center text-[40px]">
-              Empowering Tomorrow’s Leaders, Shaping the Society
-            </h2>
+      <div className="flex  bg-hero_bg flex-col bg-black min-h-[100vh]  bg-no-repeat bg-cover bg-center items-center justify-between w-full ">
+        <Navbar />
+        <div />
+        <div>
+          <div className=" flex flex-col justify-center pb-[30px]">
+            {/* Hero text */}
+            <div className="text-white">
+              <h1 className="text-4xl font-mutant text-center leading-[1] lg:text-[90px]">
+                S.W.A.T <br />
+                LEADERSHIP ACADEMY
+              </h1>
+              <h2 className="text-lg lg:text-2xl mt-2 mx-auto font-light max-w-[508px] text-center ">
+                Empowering Tomorrow’s Leaders, Shaping the Society
+              </h2>
+            </div>
+          </div>
+          <div className="flex justify-center flex-wrap items-center gap-x-10 gap-4 lg:gap-x-8">
+            <PrimaryButton>Become A sponsor</PrimaryButton>
+            <SecondaryButton className="min-w-[205px]">Join Us</SecondaryButton>
           </div>
         </div>
-        <Navbar />
+        <div className="flex w-full items-center justify-center relative">
+          <a href="#about" className="absolute -mt-60 2xl:-mt-80">
+            <ArrowDown className="animate-pulse" />
+          </a>
+        </div>
       </div>
-      <div className="flex justify-center items-center gap-x-10 lg:gap-x-[100px]">
-        <PrimaryButton>Join Us</PrimaryButton>
-        <PrimaryButton>Partner</PrimaryButton>
-      </div>
+
       {/* arrow */}
-      <div className="flex w-full justify-center">
-        <a href="#about">
-          <ArrowDown />
-        </a>
-      </div>
 
       <div className=" w-full max-w-[100%] overflow-hidden gap-x-10  flex">
         <div className="flex animate-slides_linear  items-center gap-x-10 ">
-          {slideshowsPartner.map((data, index) => (
-            <img className="images block w-12" key={index} src={data} />
+          {slideshowsPartner.map((data) => (
+            <img className="images block w-12      " key={data} src={data} />
           ))}
         </div>
       </div>

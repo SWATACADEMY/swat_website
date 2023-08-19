@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div
       className="flex justify-between w-[90vw]
-     mx-auto fixed top-[2rem] z-[100] bg-white p-[0.5rem] rounded-[1.25rem] items-center  "
+     mx-auto fixed top-[2rem] z-[100] bg-white p-4 rounded-lg items-center  "
     >
       <div className="items-center flex space-x-2">
         <SwatLogo />
@@ -36,8 +36,8 @@ const Navbar = () => {
           <a href="#">Contact</a>
         </li>
       </ul>
-     <PrimaryButton>
-      Join Us
+     <PrimaryButton className="hidden lg:flex">
+     Become A sponsor
      </PrimaryButton>
     </div>
   );

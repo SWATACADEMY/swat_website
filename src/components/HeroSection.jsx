@@ -5,7 +5,7 @@ import ArrowDown from "./svgs/ArrowDown";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col space-y-8  lg:pb-[30px] w-screen  h-screen">
+    <div className="flex flex-col space-y-8  mb-20 lg:pb-[30px] w-screen  h-screen">
       <div className="flex  bg-hero_bg flex-col bg-black min-h-[100vh]  bg-no-repeat bg-cover bg-center items-center justify-between w-full ">
         <Navbar />
         <div />
@@ -36,10 +36,10 @@ const HeroSection = () => {
 
       {/* arrow */}
 
-      <div className=" w-full max-w-[100%] overflow-hidden gap-x-10  flex">
+      <div className=" w-full max-w-[100%] z-[9999] gap-x-10  flex">
         <div className="flex animate-slides_linear  items-center gap-x-10 ">
           {slideshowsPartner.map((data) => (
-            <img className="images block w-12      " key={data} src={data} />
+            <img className=" images block w-12 h-12  " key={data} src={data} />
           ))}
         </div>
       </div>

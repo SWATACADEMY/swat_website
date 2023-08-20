@@ -1,6 +1,7 @@
 // import React, { useEffect, useRef } from "react";
 // import { gsap } from "gsap";
 // import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Link } from "react-router-dom";
 
 const PinningSection = () => {
   return (
@@ -19,7 +20,10 @@ const PinningSection = () => {
             </div>
           </div>
         </div>
-        <div className="py-8 lg:py-16 lg:px-32 px-4" style={{ background: "#FFD5C3" }}>
+        <div
+          className="py-8 lg:py-16 lg:px-32 px-4"
+          style={{ background: "#FFD5C3" }}
+        >
           <div className="flex flex-col lg:flex-row lg:justify-between">
             <div className="left">
               <div className="tag">Upcoming Events</div>
@@ -40,7 +44,10 @@ const PinningSection = () => {
               </div>
               <div style={{ padding: "3rem 0" }} className="btn-parent">
                 <div className="btn whitespace-nowrap">Register Now</div>
-                <div className="btn whitespace-nowrap" style={{ paddingLeft: "2rem" }}>
+                <div
+                  className="btn whitespace-nowrap"
+                  style={{ paddingLeft: "2rem" }}
+                >
                   Learn More
                 </div>
               </div>
@@ -52,11 +59,19 @@ const PinningSection = () => {
         </div>
 
         {/* second */}
-        <div className="py-8 lg:py-16 lg:px-32 px-4" style={{ background: "#E9EEEA" }}>
+        <div
+          className="py-8 lg:py-16 lg:px-32 px-4"
+          style={{ background: "#E9EEEA" }}
+        >
           <div className="flex flex-col lg:flex-row lg:justify-between">
             <div className="left">
               <div className="tag">Upcoming Events</div>
-              <h3 className="font-bold lg:text-3xl text-[#353535]" style={{ paddingTop: "2rem" }}>Rendezvous 2023</h3>
+              <h3
+                className="font-bold lg:text-3xl text-[#353535]"
+                style={{ paddingTop: "2rem" }}
+              >
+                Rendezvous 2023
+              </h3>
               <p style={{ paddingTop: "1rem" }}>
                 Year-End Celebration to cherish the memories of the past year
                 and welcome the new one with a burst of excitement! with food,
@@ -71,7 +86,10 @@ const PinningSection = () => {
               </div>
               <div style={{ padding: "3rem 0" }} className="btn-parent">
                 <div className="btn whitespace-nowrap">Register Now</div>
-                <div className="btn whitespace-nowrap" style={{ paddingLeft: "2rem" }}>
+                <div
+                  className="btn whitespace-nowrap"
+                  style={{ paddingLeft: "2rem" }}
+                >
                   Learn More
                 </div>
               </div>
@@ -82,11 +100,17 @@ const PinningSection = () => {
           </div>
         </div>
         {/* Third */}
-        <div className="py-8 lg:py-16 lg:px-32 px-4" style={{ background: "#ECDECC" }}>
+        <div
+          className="py-8 lg:py-16 lg:px-32 px-4"
+          style={{ background: "#ECDECC" }}
+        >
           <div className="flex flex-col lg:flex-row lg:justify-between">
             <div className="left">
               <div className="tag">Upcoming Events</div>
-              <h3 className="font-bold lg:text-3xl text-[#353535]" style={{ paddingTop: "2rem" }}>
+              <h3
+                className="font-bold lg:text-3xl text-[#353535]"
+                style={{ paddingTop: "2rem" }}
+              >
                 S.W.A.T Creatives Conference
               </h3>
               <p style={{ paddingTop: "1rem" }}>
@@ -103,8 +127,13 @@ const PinningSection = () => {
                 </ul>
               </div>
               <div style={{ padding: "3rem 0" }} className="btn-parent">
-                <div className="btn whitespace-nowrap">Register Now</div>
-                <div className="btn whitespace-nowrap" style={{ paddingLeft: "2rem" }}>
+                <Link to="/event_01">
+                  <div className="btn whitespace-nowrap">Register Now</div>
+                </Link>
+                <div
+                  className="btn whitespace-nowrap"
+                  style={{ paddingLeft: "2rem" }}
+                >
                   Learn More
                 </div>
               </div>

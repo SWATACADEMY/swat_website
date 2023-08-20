@@ -2,7 +2,6 @@
 // import { gsap } from "gsap";
 // import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Link } from "react-router-dom";
-
 const PinningSection = () => {
   return (
     <div className="">
@@ -134,7 +133,9 @@ const PinningSection = () => {
                   className="btn whitespace-nowrap"
                   style={{ paddingLeft: "2rem" }}
                 >
-                  Learn More
+                  <a href="./SWAT.pdf" download="swat_conference_.pdf">
+                    Download Brochure
+                  </a>
                 </div>
               </div>
             </div>

@@ -129,10 +129,7 @@
   }
 }
 
-.logos-slide img {
-  margin: 0 20px;
-}
-.logos:hover .logos-slide {
+.paused {
   animation-play-state: paused;
 }
 

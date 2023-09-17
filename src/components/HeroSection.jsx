@@ -1,22 +1,22 @@
-import { useState } from "react";
-import { slideshowsPartner } from "../utils/slideshow";
+import {} from "react";
+// import { slideshowsPartner } from "../utils/slideshow";
 import Navbar from "./Navbar";
 import { PrimaryButton, SecondaryButton } from "./common/Button";
 import ArrowDown from "./svgs/ArrowDown";
 
 const HeroSection = () => {
-  const [active, setActive] = useState(false);
+  // const [active, setActive] = useState(false);
 
-  const handleEnter = (image) => {
-    image.style.filter = "grayscale(0%)";
-    image.style.transform = "scale(1.5)";
-    setActive(true);
-  };
-  const handleLeave = (image) => {
-    image.style.filter = "grayscale(100%)";
-    image.style.transform = "scale(1)";
-    setActive(false);
-  };
+  // const handleEnter = (image) => {
+  //   image.style.filter = "grayscale(0%)";
+  //   image.style.transform = "scale(1.5)";
+  //   setActive(true);
+  // };
+  // const handleLeave = (image) => {
+  //   image.style.filter = "grayscale(100%)";
+  //   image.style.transform = "scale(1)";
+  //   setActive(false);
+  // };
 
   return (
     <div className="flex flex-col space-y-8  mb-20 lg:pb-[30px] w-screen  h-screen">
@@ -50,7 +50,7 @@ const HeroSection = () => {
 
       {/* arrow */}
 
-      <div className=" w-full max-w-[100%] z-[9999] gap-x-10  flex">
+      {/* <div className=" w-full max-w-[100%] z-[9999] gap-x-10  flex">
         <div
           className={`flex animate-slides_linear  items-center gap-x-10 ${
             active ? " paused " : ""
@@ -66,12 +66,12 @@ const HeroSection = () => {
             />
           ))}
         </div>
-      </div>
-      <div>
+      </div> */}
+      {/* <div>
         <p className="text-[15px] text-center font-semibold text-[#CC3C39]">
           Partners Over the Years
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };

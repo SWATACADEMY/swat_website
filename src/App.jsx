@@ -5,14 +5,14 @@ import "./App.css";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Header />} />
+      <Route path="/" exact element={<Header />} />
       <Route
-        path="/event_01"
+        path="/RegisterC8Conference"
         element={
           <>
             <div className="home__link">
               <span>
-                <Link to="/"> go back</Link>
+                <Link to="/">HOMEPAGE</Link>
               </span>
             </div>
             <div className="embedded-form">

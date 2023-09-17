@@ -126,7 +126,7 @@ const PinningSection = () => {
                 </ul>
               </div>
               <div style={{ padding: "3rem 0" }} className="btn-parent">
-                <Link to="/event_01">
+                <Link to="/RegisterC8Conference">
                   <div className="btn whitespace-nowrap">Register Now</div>
                 </Link>
                 <div
